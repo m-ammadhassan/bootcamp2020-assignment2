@@ -25,12 +25,12 @@ jobs:
         uses: actions/setup-node@v3.2.0
         with:
           node-version: 16
+
+      - name: Create Build Folder
+        run: npm run build
       
       - name: Install Surge
         run: npm install --global surge
-        
-      - name: Create Build Folder
-        run: npm run build
         
       - name: Deploy on Surge
         run: surge ./build http://ammad-bootcamp2020-assignment-2.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
