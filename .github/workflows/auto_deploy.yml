@@ -27,7 +27,7 @@ jobs:
           node-version: 16
           
       - name: Install Yarn
-        run: npm install --globale yarn
+        run: npm install --global yarn
         
       - name: Add Font Awesome SVG Core
         run: npm i --save @fortawesome/fontawesome-svg-core
@@ -37,7 +37,7 @@ jobs:
         
       - name: Install Font Awesome React Component
         run: npm i --save @fortawesome/react-fontawesome@latest
-
+        
       - name: Create Build Folder
         run: yarn build
       
