@@ -9,7 +9,7 @@ function App() {
       </header>
 
       <main className="flex">
-        <h4>Hello World by <span>Muhammad Ammad Hassan</span></h4>
+        <h4>Hello World through React by <span>Muhammad Ammad Hassan</span></h4>
       </main>
 
       <footer className="flex">
