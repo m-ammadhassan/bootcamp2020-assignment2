@@ -25,9 +25,21 @@ jobs:
         uses: actions/setup-node@v3.2.0
         with:
           node-version: 16
+          
+      - name: Install Yarn
+        run: npm install --globale yarn
+        
+      - name: Add Font Awesome SVG Core
+        run: npm i --save @fortawesome/fontawesome-svg-core
+        
+      - name: Add Icon Package
+        run: npm i --save @fortawesome/free-solid-svg-icons
+        
+      - name: Install Font Awesome React Component
+        run: npm i --save @fortawesome/react-fontawesome@latest
 
       - name: Create Build Folder
-        run: npm run build
+        run: yarn build
       
       - name: Install Surge
         run: npm install --global surge
