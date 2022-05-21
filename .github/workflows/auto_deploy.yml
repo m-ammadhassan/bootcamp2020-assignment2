@@ -25,9 +25,12 @@ jobs:
         uses: actions/setup-node@v3.2.0
         with:
           node-version: 16
+          
+      - name: Install Yarn
+        run: npm install --globale yarn
 
       - name: Create Build Folder
-        run: npm run build
+        run: yarn build
       
       - name: Install Surge
         run: npm install --global surge
