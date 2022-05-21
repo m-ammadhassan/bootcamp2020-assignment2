@@ -39,7 +39,7 @@ jobs:
         run: npm i --save @fortawesome/react-fontawesome@latest
         
       - name: Create Build Folder
-        run: yarn build
+        run: npm run build
       
       - name: Install Surge
         run: npm install --global surge
