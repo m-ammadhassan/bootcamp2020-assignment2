@@ -14,19 +14,19 @@ function App() {
 
       <footer className="flex">
         <div class="social-icons flex">
-          <a href="https://web.facebook.com/m_ammad_hassan/" rel='noreferrer'>
+          <a href="https://web.facebook.com/m_ammad_hassan/" target="_blank" rel='noreferrer'>
             <i class="fab fa-facebook-square"></i>
           </a>
-          <a href="https://twitter.com/m_ammadhassan" rel='noreferrer'>
+          <a href="https://twitter.com/m_ammadhassan" target="_blank" rel='noreferrer'>
             <i class="fab fa-twitter-square"></i>
           </a>
-          <a href="https://www.instagram.com/m_ammadhassan" rel='noreferrer'>
+          <a href="https://www.instagram.com/m_ammadhassan" target="_blank" rel='noreferrer'>
             <i class="fab fa-instagram-square"></i>
           </a>
-          <a href="https://www.linkedin.com/in/m-ammadhassan/" rel='noreferrer'>
+          <a href="https://www.linkedin.com/in/m-ammadhassan/" target="_blank" rel='noreferrer'>
             <i class="fab fa-linkedin"></i>
           </a>
-          <a href="https://github.com/m-ammadhassan" rel='noreferrer'>
+          <a href="https://github.com/m-ammadhassan" target="_blank" rel='noreferrer'>
             <i class="fab fa-github-square"></i>
           </a>
         </div>
