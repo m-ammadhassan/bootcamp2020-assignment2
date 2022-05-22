@@ -26,14 +26,8 @@ jobs:
         with:
           node-version: 16
         
-      - name: Add Font Awesome SVG Core
-        run: npm i --save @fortawesome/fontawesome-svg-core
-        
-      - name: Add Icon Package
-        run: npm i --save @fortawesome/free-solid-svg-icons
-        
-      - name: Install Font Awesome React Component
-        run: npm i --save @fortawesome/react-fontawesome@latest
+      - name: Install React Scripts
+        run: npm install react-scripts
         
       - name: Create Build Folder
         run: npm run build
